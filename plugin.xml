@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-           id="cordova-plugin-tesseract"
+           id="tdx-plugin-tesseract"
       version="0.0.1">
     <name>Tesseract Plugin</name>
     
@@ -12,17 +12,6 @@
     <js-module src="www/tesseractPlugin.js" name="TesseractPlugin">
         <clobbers target="TesseractPlugin" />
     </js-module>
-
-    <!-- android -->
-    <platform name="android">
-        <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="TesseractPlugin">
-                <param name="android-package" value="com.gmazzoni.cordova.TesseractPlugin"/>
-            </feature>
-        </config-file>
-
-        <source-file src="src/android/TesseractPlugin.java" target-dir="src/com/tesseract/phonegap" />
-    </platform>
 
 
     <!-- ios -->
