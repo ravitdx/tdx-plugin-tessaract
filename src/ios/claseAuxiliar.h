@@ -9,7 +9,7 @@
 
 
 
-#import <TesseractOCR/TesseractOCR.h>
+#import "TesseractOCR/TesseractOCR.h"
 
 @interface claseAuxiliar : NSObject <G8TesseractDelegate> {
  
