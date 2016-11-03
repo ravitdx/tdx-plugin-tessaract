@@ -38,6 +38,7 @@
         <source-file src="src/ios/claseAuxiliar.mm" />
         <header-file src="src/ios/TesseractPlugin.h" />
         <source-file src="src/ios/TesseractPlugin.m" />
+	<source-file src="src/ios/TesseractOCR" />
         <!-- set the tessdata directory as a resource so it can go with the app -->
         <resource-file src="tessdata" />
     </platform>
