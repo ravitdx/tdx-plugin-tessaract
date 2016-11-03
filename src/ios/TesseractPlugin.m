@@ -3,7 +3,7 @@
 //
 //  @author Gustavo Mazzoni - 2016.
 //
-
+#import <Cordova/CDV.h>
 #import "TesseractPlugin.h"
 #import "claseAuxiliar.h"
 
