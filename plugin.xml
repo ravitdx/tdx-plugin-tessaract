@@ -28,16 +28,17 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-		    <feature name="TesseractPlugin">
-			    <param name="ios-package" value="TesseractPlugin"/>
+		    <feature name="OCRPlugin">
+			    <param name="ios-package" value="OCRPlugin"/>
                 <param name="onload" value="true" />
 		    </feature>
         </config-file>
 
-        <header-file src="src/ios/claseAuxiliar.h" />
-        <source-file src="src/ios/claseAuxiliar.mm" />
-        <header-file src="src/ios/TesseractPlugin.h" />
-        <source-file src="src/ios/TesseractPlugin.m" />
+        <header-file src="claseAuxiliar.h" />
+        <source-file src="claseAuxiliar.mm" />
+        <header-file src="OCRPlugin.h" />
+        <source-file src="OCRPlugin.m" />
+		<source-file src="dependencies" />
         <!-- set the tessdata directory as a resource so it can go with the app -->
         <resource-file src="tessdata" />
     </platform>
