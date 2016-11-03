@@ -7,7 +7,7 @@
 #import "claseAuxiliar.h"
 
 
-#import <TesseractOCR/TesseractOCR.h>
+#import "TesseractOCR/TesseractOCR.h"
 
 static inline double radians (double degrees) {return degrees * M_PI/180;}
 
