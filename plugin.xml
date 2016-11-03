@@ -5,8 +5,8 @@
       version="0.0.1">
     <name>Tesseract Plugin</name>
  
-    <js-module src="www/tesseractPlugin.js" name="TesseractPlugin">
-        <clobbers target="TesseractPlugin" />
+    <js-module src="www/OCRPlugin.js" name="OCRPlugin">
+        <clobbers target="OCRPlugin" />
     </js-module>
 
     <!-- ios -->
